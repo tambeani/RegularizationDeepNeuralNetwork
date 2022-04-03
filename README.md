@@ -6,6 +6,7 @@ The motivation behind implementing regularization is to prevent overfitting. Thi
 
 1. Putting constraints on parameters of ML model
 2. Prevent neurons being overdependent on any variable
+3. Batch normalization
 
 For this implementation we would focus on 2nd point. For example, if a CNN is fed train image of the number 5, out of which certain images have swirls at the end of the handwritten 5. To prevent the model from overfitting on the "swirl" feature we randomly drop certain neurons. 
 
